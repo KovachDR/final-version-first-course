@@ -15,5 +15,6 @@ public class Main {
         employeeBook.removeEmployee(5);
         employeeBook.changeSalaryAndDepartmentEmployee("Иванов Иван Иванович", 77777, 3);
         employeeBook.printListEmployeesAllDepartments();
+        employeeBook.printInfo();
     }
 }

@@ -6,7 +6,6 @@ public class EmployeeBook {
     public int getCount() {
         return count;
     }
-
     public EmployeeBook(int capacity) {
         this.capacity = capacity;
         employees = new Employee[capacity];
@@ -118,7 +117,7 @@ public class EmployeeBook {
         }
     }
     public void delimiter() {
-        System.out.println("////////////////////////////////////////////////////");
+        System.out.println("///////////////////////////////////////////////////////");
     }
     public void indexSalary(double indexPercentage) {
         if (indexPercentage <= 0){
